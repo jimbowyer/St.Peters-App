@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>MinimumOSVersion</key>
+	<string>10.3</string>
+	<key>CFBundleDisplayName</key>
+	<string>St Peters</string>
+	<key>CFBundleIdentifier</key>
+	<string>ca.st-peters.rockapp</string>
+	<key>CFBundleVersion</key>
+	<string>1.3.6.3</string>
+	<key>CFBundleName</key>
+	<string>St Peters</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconName</key>
+			<string>Icon</string>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>Icon-60@2x.png</string>
+				<string>Icon-76.png</string>
+				<string>Icon-76@2x.png</string>
+				<string>Default.png</string>
+				<string>Default@2x.png</string>
+				<string>Default-568h@2x.png</string>
+				<string>Default-Portrait.png</string>
+				<string>Default-Portrait@2x.png</string>
+				<string>Icon-Small-40.png</string>
+				<string>Icon-Small-40@2x.png</string>
+				<string>Icon-Small.png</string>
+				<string>Icon-83.5@2x.png</string>
+			</array>
+		</dict>
+	</dict>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.6</string>
+	<key>UIStatusBarTintParameters</key>
+	<dict>
+		<key>UINavigationBar</key>
+		<dict>
+			<key>Style</key>
+			<string>UIBarStyleDefault</string>
+			<key>Translucent</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>UIMainStoryboardFile~ipad</key>
+	<string>LaunchScreen</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We are using your location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Can we use your location</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>XSAppIconAssets</key>
+	<string>Resources/Media.xcassets/AppIcons.appiconset</string>
+	<key>XSLaunchImageAssets</key>
+	<string>Resources/Media.xcassets/LaunchImages.launchimage</string>
+</dict>
+</plist>
