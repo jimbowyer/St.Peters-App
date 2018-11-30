@@ -34,7 +34,7 @@ namespace stPetes
                     }
                 case (Device.Android):
                     {
-                        ToolbarItems.Add(new ToolbarItem("Mass", "", () =>
+                        ToolbarItems.Add(new ToolbarItem("| Mass Readings", "", () =>
                         {
                             Navigation.PushAsync(new PageReadingsMass());
                         }));

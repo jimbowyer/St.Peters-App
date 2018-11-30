@@ -1,6 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
 using System.Security;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace stPetes
 {
@@ -31,7 +34,14 @@ namespace stPetes
         
         protected override void OnStart()
         {
-            // Handle when your app starts... permissions:
+            // Handle when your app starts... 
+            // AppCenter Analytics:
+            AppCenter.Start("android=c66a3e78-b655-4033-a1cc-b03418174710;" +
+                  "uwp={Your UWP App secret here};" +
+                  "ios=00fa113e-550e-47b9-8481-5e4e7f4a2275",
+                  typeof(Analytics), typeof(Crashes));
+
+            AppCenter.LogLevel = LogLevel.Verbose;
         } 
 
         protected override void OnSleep()
