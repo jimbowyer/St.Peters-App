@@ -34,14 +34,18 @@ namespace stPetes
         
         protected override void OnStart()
         {
-            // Handle when your app starts... 
-            // AppCenter Analytics:
-            AppCenter.Start("android=c66a3e78-b655-4033-a1cc-b03418174710;" +
+            // Handle when app starts... 
+            // #1. AppCenter Analytics:
+            clsConfig cfg = new clsConfig();
+            AppCenter.Start("android=" + cfg.AppCenterAndroidKey +";" +
                   "uwp={Your UWP App secret here};" +
-                  "ios=00fa113e-550e-47b9-8481-5e4e7f4a2275",
+                  "ios=" + cfg.AppCenterIosKey + ";",
                   typeof(Analytics), typeof(Crashes));
 
-            AppCenter.LogLevel = LogLevel.Verbose;
+            #if DEBUG
+                AppCenter.LogLevel = LogLevel.Verbose;
+            #endif
+
         } 
 
         protected override void OnSleep()
@@ -53,7 +57,7 @@ namespace stPetes
         {
             // Handle when your app resumes
         }
-        
+
     } //class App
     
 } //ns stpetes
