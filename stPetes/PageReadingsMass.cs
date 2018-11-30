@@ -16,9 +16,7 @@ namespace stPetes
             const string cGOSPEL = "daily-texts/gospel/";
 
             string sDate = DateTime.Now.ToString("yyyy-MM-dd");
-            //string sUrlRead1 = cNOVALIS + cREAD1 + sDate;
-            
-
+          
             //-------------------------------
             // Dictionary to hold reading Urls.
             Dictionary<string, string> readToShow = new Dictionary<string, string>
@@ -34,7 +32,7 @@ namespace stPetes
             Picker picker = new Picker
             {
                 Title = "Press to select a reading...",
-                VerticalOptions = LayoutOptions.EndAndExpand,
+                VerticalOptions = LayoutOptions.CenterAndExpand,
                 TextColor = Color.Black,              
             };
             
@@ -65,8 +63,8 @@ namespace stPetes
             {
                 Children =
                 {
-                    wvReading,
-                    picker
+                    picker,
+                    wvReading
                 }
             };
         }
