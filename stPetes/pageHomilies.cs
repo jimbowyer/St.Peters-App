@@ -68,7 +68,7 @@ namespace stPetes
                 {
                     Uri uBull = new Uri(GetBulletinUrl(DateTime.Now));                    
 
-                    if (Device.RuntimePlatform == Device.iOS || Device.RuntimePlatform == Device.WinPhone)
+                    if (Device.RuntimePlatform == Device.iOS || Device.RuntimePlatform == Device.UWP)
                     {
                         Device.OpenUri(uBull);                    
                     }
@@ -90,7 +90,7 @@ namespace stPetes
                 {
                     Uri uBull = new Uri(GetBulletinUrl(DateTime.Now.Subtract(TimeSpan.FromDays(7))));
 
-                    if (Device.RuntimePlatform == Device.iOS || Device.RuntimePlatform == Device.WinPhone)
+                    if (Device.RuntimePlatform == Device.iOS || Device.RuntimePlatform == Device.UWP)
                     {
                         Device.OpenUri(uBull);
                     }

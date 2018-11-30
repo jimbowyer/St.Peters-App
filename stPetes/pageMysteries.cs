@@ -35,7 +35,7 @@ namespace stPetes
                         }));
                         break;
                     }
-                case (Device.WinPhone):
+                case (Device.UWP):
                     {
                         tbMenu.Icon = "info.png";
                         tbMenu.Order = ToolbarItemOrder.Default;
