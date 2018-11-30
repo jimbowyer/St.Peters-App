@@ -9,7 +9,7 @@ namespace stPetes
     class clsConfig
     {
         //Obfuscate app center key used to transmit telemetry, change to put your key in here:
-        public string AppCenterAndroidKey { get; } = "ooooo";
-        public string AppCenterIosKey { get; }  = "ppppp";
+        public string AppCenterAndroidKey { get; } = "bbbbbbbbbbbbb";
+        public string AppCenterIosKey { get; }  = "zzzzzzzzzzzzzzzzz";
     }
 }
