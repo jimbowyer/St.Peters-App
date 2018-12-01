@@ -16,7 +16,7 @@ namespace stPetes
 
             ToolbarItem tbMenu = new ToolbarItem
             {
-                Text = "Mass",
+                Text = "| Mass Readings",
                 //custom menu work below for each platform
             };
 
@@ -44,7 +44,7 @@ namespace stPetes
                     {
                         tbMenu.Icon = "info.png";
                         tbMenu.Order = ToolbarItemOrder.Default;
-                        ToolbarItems.Add(new ToolbarItem("Mass", "info.png", () =>
+                        ToolbarItems.Add(new ToolbarItem("| Mass Readings", "info.png", () =>
                         {
                             Navigation.PushAsync(new PageReadingsMass());
                         }));
