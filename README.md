@@ -1,6 +1,6 @@
 # St.Peters-App
-UPDATE: April 2020 ***RETIRED ***
-This repo now depricated and reference only. The code was migrated to brand new .NET Core version of this project. See https://github.com/jimbowyer/StPeters-App-NetCore Leaving this original version for reference only as changes were way beyond branch work. The migration to NET Core based Xamarin forms really was created from scratch in brand new project.
+UPDATE: April 2020 ***RETIRED *** <p/>
+This repo is now depricated and reference only. The code was migrated to brand new .NET Core version of this project. See https://github.com/jimbowyer/StPeters-App-NetCore Leaving this original version for reference only as changes were way beyond branch work. The migration to NET Core based Xamarin forms really was created from scratch in brand new project.
 ------------------------------------------------------------------------------
 Xamarin.Forms app built for local church. This is a sample app built for Android/iOS using Xamarin PCL (Portable Class Library). Working versions of this app are published in respective app stores:
 
